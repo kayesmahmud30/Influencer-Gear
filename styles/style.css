@@ -94,9 +94,8 @@ nav ul li a {
 
 #collection {
   max-width: 70%;
-  margin: 0 auto;
+  margin: 0 auto 60px;
   position: relative;
-  padding-bottom: 60px;
 }
 
 #collection h1 {
@@ -163,7 +162,7 @@ nav ul li a {
   outline: none;
   background: none;
   position: absolute;
-  bottom: 0;
+  bottom: -3.5rem;
   right: 0;
   color: #e02c6d;
   font-size: 16px;
