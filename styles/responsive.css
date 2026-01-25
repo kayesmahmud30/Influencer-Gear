@@ -29,7 +29,7 @@
     font-size: 30px;
   }
   #banner img {
-    max-width: 90%;
+    width: 100%;
   }
 
   #sponsor {
