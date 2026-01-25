@@ -1,0 +1,42 @@
+@media screen and (max-width: 576px) {
+  nav {
+    padding: 50px;
+    max-width: 100%;
+  }
+
+  nav .mobiles-icon {
+    display: inline;
+    font-size: 25px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  #banner {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 95%;
+  }
+
+  #sponsor {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    max-width: 95%;
+  }
+
+  #collection {
+    max-width: 80%;
+  }
+
+  #collection .card-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  #feature {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 70%;
+  }
+}

@@ -17,6 +17,10 @@ nav {
   padding: 87px 0;
 }
 
+nav .mobiles-icon {
+  display: none;
+}
+
 nav h3 {
   font-size: 24px;
   font-weight: bold;
